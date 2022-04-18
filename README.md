@@ -8,3 +8,7 @@ Create a page where you have to display images (can download from browser) and d
 
 **TASK 2:** 
 create a page using any flex item display gifs each has to display 3 gifs and each row items display must be different (like for example use justify-content-center for first row and justify-content-around for second row) totally 3 rows
+
+
+**TASK 3:**
+Display iframes using flex 3 videos in website page each row consists of 3 videos totally 9 videos
