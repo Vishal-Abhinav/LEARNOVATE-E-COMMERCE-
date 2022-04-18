@@ -12,3 +12,6 @@ create a page using any flex item display gifs each has to display 3 gifs and ea
 
 **TASK 3:**
 Display iframes using flex 3 videos in website page each row consists of 3 videos totally 9 videos
+
+**TASK 4:**
+Display parallax effect using any image and texts but use ul ol dl li for the bottom text
