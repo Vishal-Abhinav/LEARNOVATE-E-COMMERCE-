@@ -1,0 +1,41 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightskyblue;
+    margin: 0;
+    
+}
+h2{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 7px;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid darkblue;
+}
+input:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+.button{
+    background-color: darkblue;
+    color:#fff;
+    border: none;
+    padding: 7px
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
