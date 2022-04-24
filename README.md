@@ -18,3 +18,9 @@ Display iframes using flex 3 videos in website page each row consists of 3 video
 
 **TASK 4:**
 Display parallax effect using any image and texts but use ul ol dl li for the bottom text
+
+**TASK 5:**
+Build your own resume by using text tags, table (for displaying educational qualifications), image tag for displaying image (can take image from browser), add name, address, career objective, educational qualifications, projects, hobbies and declaration (use css for attractive resume.
+
+**TASK 6:**
+Build a job application form by using all types of fields like text, mail, password, checkbox, radio, file upload and submit button.
