@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS String Method :by Vishal Abhinav</title>
+</head>
+
+<body>
+    <center><strong>    TASK 7   </strong></center>
+    <body style="background-color:rgba(148, 21, 221, 0.384);"></body>
+    <p><b><center>Print all the string methods in single page.</center></b></p>
+    <h2>JavaScript String Properties</h2>
+
+    <p>The length property returns the length of a string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        document.getElementById("demo").innerHTML = text.length;
+    </script>
+    <p>The slice() method extract a part of a string
+        and returns the extracted parts in a new string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.slice(7, 13); 
+    </script>
+    <p>The slice() method extract a part of a string
+        and returns the extracted parts in a new string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.slice(-12, -6);
+    </script>
+    <h2>JavaScript String Methods</h2>
+
+    <p>The substring() method extract a part of a string and returns the extracted parts in a new string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.substring(7, 13);
+    </script>
+    <p>The substr() method extract a part of a string
+        and returns the extracted parts in a new string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.substr(7, 6);
+    </script>
+    <p>The substr() method extract a part of a string
+        and returns the extracted parts in a new string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let str = "Apple, Banana, Kiwi";
+        document.getElementById("demo").innerHTML = str.substr(7);
+    </script>
+    <h2>JavaScript String Methods</h2>
+
+    <p>Replace "Vishal" with "Abhinav" in the paragraph below:</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo">Please visit Learnovate Ecommerce!</p>
+
+    <script>
+        function myFunction() {
+            let text = document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML =
+                text.replace("Vishal", "Abhinav");
+        }
+    </script>
+    <h2>JavaScript String Methods</h2>
+    <p>Convert string to upper case:</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo">Hello Learnovate Ecommerce</p>
+
+    <script>
+        function myFunction() {
+            let text = document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML =
+                text.toUpperCase();
+        }
+    </script>
+    <h1>JavaScript Strings</h1>
+    <h2>The trim() Method</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        let text1 = "     Hello World!     ";
+        let text2 = text1.trim();
+
+        document.getElementById("demo").innerHTML =
+            "Length text1=" + text1.length + "<br>Length2 text2=" + text2.length;
+    </script>
+    <h2>JavaScript String Methods</h2>
+
+    <p>The padStart() method pads a string with another string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let = "5";
+        document.getElementById("demo").innerHTML = text.padStart(4, "0");
+    </script>
+    <h2>JavaScript String Methods</h2>
+
+    <p>The padStart() method pads a string with another string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let text = "5";
+        document.getElementById("demo").innerHTML = text.padEnd(4, "a");
+    </script>
+
+    <p>The charCodeAt() method returns the unicode of the character at a given position in a string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let text = "HELLO ";
+        document.getElementById("demo").innerHTML = text.charCodeAt(0);
+    </script>
+    <footer><center><b>PAGE CREATED BY : VISHAL ABHINAV, DEPT. OF MCA, AMCEC BANGALORE</b></center></footer>
+
+</body>
+
+</html>
