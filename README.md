@@ -24,3 +24,9 @@ Build your own resume by using text tags, table (for displaying educational qual
 
 **TASK 6:**
 Build a job application form by using all types of fields like text, mail, password, checkbox, radio, file upload and submit button.
+
+**TASK 7:**
+Print all the string methods in single page.
+
+**TASK 8:**
+Do all the arithmetic operations using javascript and print them all in one page
